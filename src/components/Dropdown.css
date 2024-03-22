@@ -1,0 +1,64 @@
+/* components/Dropdown.css */
+.main {
+  background-color: #4e4e4eba;
+  width: 99%;
+  height: 95vh;
+  border: 5px solid blue;
+}
+
+.inner {
+  text-align: center;
+  border: 5px solid blue;
+  width: 40%;
+  height: 50vh;
+  margin: 10% 30%;
+  background-color: #9dff1d;
+}
+
+.heading{
+  color: blue;
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  /* background-color: aqua; */
+}
+
+.dropdown-button {
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  border: 3px solid black;
+  width: 100%;
+  /* border-radius: 58px; */
+  background: linear-gradient(145deg, #bababa, #878886);
+  box-shadow: 33px 33px 66px #76bf16,
+    -33px -33px 66px #c4ff24;
+
+  font-size: larger;
+  font-weight: 700;
+}
+
+.dropdown-list {
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 98%;
+  border: 3px solid black;
+}
+
+.dropdown-list li {
+  padding: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.dropdown-list li:hover {
+  background-color: #d4d3d3;
+}
